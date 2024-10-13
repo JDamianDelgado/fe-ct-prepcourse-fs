@@ -3,6 +3,12 @@ function doWhile(num) {
   // Retorna el valor final.
   // PISTA: Utiliza el bucle do-while.
   // Tu código:
+  let aumenta = 0;
+  do {
+    num += 5;
+    aumenta++;
+  } while (aumenta < 8);
+  return num;
 }
 
 module.exports = doWhile;
