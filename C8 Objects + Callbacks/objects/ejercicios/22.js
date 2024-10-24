@@ -10,6 +10,7 @@ function esAnagrama(str1, str2) {
   }
   const str11 = str1.split("").sort().join("");
   const str22 = str2.split("").sort().join("");
+  return str11 === str22;
 }
-return str11 === str22;
+
 module.exports = esAnagrama;
